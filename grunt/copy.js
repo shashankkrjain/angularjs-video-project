@@ -10,7 +10,10 @@ module.exports = {
                     'angular-ui-router/release/**',
                     'angular-ui-utils/ui-utils.js',
                     'ngstorage/ngStorage.js',
-                    'oclazyload/dist/**'
+                    'oclazyload/dist/**',
+                    'satellizer/**',
+                    'angular-ui-notification/dist/**',
+                    'js-md5/build/md5.min.js'
                 ],
                 dest: 'libs/angular',
                 cwd:  'bower_components',

@@ -1,24 +1,19 @@
-
 <!DOCTYPE html>
 <html lang="en" data-ng-app="app" ng-controller="AppCtrl">
 <head>
     <meta charset="utf-8" />
-    <base href="/">
-    <title ng-bind="pageName + ' - ' + app.info.name"></title>
-    <meta name="description" content="Angularjs, Html5, Music, Landing, 4 in 1 ui kits package" />
-    <meta name="keywords" content="AngularJS, angular, bootstrap, admin, dashboard, panel, app, charts, components,flat, responsive, layout, kit, ui, route, web, app, widgets" />
+    <title ng-bind="pageName"></title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <link rel="stylesheet" href="/css/app.min.css?v=7798d41083174a038e21a1307104e9a2" type="text/css" />
-    <link rel="stylesheet" href="/css/custom.css?v=db95985e15ec7bea0bfe41c5a2302733" type="text/css" />
+    <link rel="stylesheet" href="/css/app.min.css" type="text/css" />
+    <link rel="stylesheet" href="/css/custom.css" type="text/css" />
     <script type="text/javascript">
         var version = 1;
-        var urlBase = "http://snapnew.local/api";
+        var urlBase = "http://localhost:3000";
     </script>
 </head>
 <body>
 <div class="app ng-scope app-header-fixed app-aside-fixed app-aside-dock" id="app" ui-view></div>
-<script src="/hash.js?v=ef9b2150d1419eeefa8d8ddc061f4be2"></script>
-<script src="/js/app.min.js?v=25cc3c53acfe3abf17127712bb3bc33c"></script>
-<script src="/js/router.js?v=c27e57fdedefe84e8caec97d439e9266"></script>
+<script src="/js/app.min.js"></script>
+<script src="/js/router.js"></script>
 </body>
 </html>

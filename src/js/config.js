@@ -15,19 +15,6 @@ var app =
                 app.value = $provide.value;
             }
         ])
-        .config(['$translateProvider', function ($translateProvider) {
-            // Register a loader for the static files
-            // So, the module will search missing translation tables under the specified urls.
-            // Those urls are [prefix][langKey][suffix].
-            $translateProvider.useStaticFilesLoader({
-                prefix: 'l10n/',
-                suffix: '.json?v=' + version
-            });
-            // Tell the module what language to use by default
-            $translateProvider.preferredLanguage('en');
-            // Tell the module to store the language in the local storage
-            $translateProvider.useLocalStorage();
-        }])
         .config(['NotificationProvider', function (NotificationProvider) {
             NotificationProvider.setOptions({
                 startTop: 20,
@@ -35,7 +22,4 @@ var app =
                 verticalSpacing: 20,
                 horizontalSpacing: 20
             });
-        }])
-        .config(['tmhDynamicLocaleProvider', function (tmhDynamicLocaleProvider) {
-            tmhDynamicLocaleProvider.localeLocationPattern('/libs/angular/angular-i18n/angular-locale_{{locale}}.js');
         }]);

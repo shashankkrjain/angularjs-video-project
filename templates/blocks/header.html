@@ -1,0 +1,36 @@
+<!-- navbar header -->
+<div class="navbar-header bg-white">
+    <button class="pull-right visible-xs dk" ui-toggle-class="show" data-target=".navbar-collapse">
+        <i class="fa fa-chevron-down"></i>
+    </button>
+    <button class="pull-left visible-xs" ui-toggle-class="off-screen" data-target=".app-aside" ui-scroll-to="app">
+        <i class="glyphicon glyphicon-align-justify"></i>
+    </button>
+    <!-- brand -->
+    <a ui-sref="manager.dashboard" href="" class="navbar-brand text-lt">
+        Crossover Video
+    </a>
+    <!-- / brand -->
+</div><!-- / navbar header -->
+
+<!-- navbar collapse -->
+<div class="collapse pos-rlt navbar-collapse box-shadow bg-white">
+    <!-- nabar right -->
+    <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown" uib-dropdown>
+            <a href class="dropdown-toggle clear" uib-dropdown-toggle>
+                <span class="hidden-sm hidden-md">{{ user.name }}</span> <b class="caret"></b>
+            </a>
+            <!-- dropdown -->
+            <ul class="dropdown-menu">
+                <li>
+                    <a ui-sref="logout">Logout</a>
+                </li>
+            </ul>
+            <!-- / dropdown -->
+        </li>
+    </ul>
+    <!-- / navbar right -->
+
+</div><!-- / navbar collapse -->
+<div ui-butterbar></div>
