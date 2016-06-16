@@ -14,7 +14,16 @@ angular.module('app')
                 data.sessionId = $sessionStorage.sessionId;
             }
 
-            return $http.get(urlBase + "/" + url, {params: data});
+            return $http.get(urlBase + "/" + url, {params: data}).then(function(response) {
+                return response;
+            }, function(response) {
+                if (response.data.status == "error" && response.data.error == "Not Authorized.") {
+                    // Redirect user to login page if we get not authorized error
+                    $sessionStorage.sessionId = null;
+                    $state.go("auth");
+                }
+                return response;
+            });
         };
 
         this.post = function (url, data) {
@@ -28,7 +37,16 @@ angular.module('app')
 
             data = JSON.stringify(data);
 
-            return $http.post(urlBase + "/" + url, data);
+            return $http.post(urlBase + "/" + url, data).then(function(response) {
+                return response;
+            }, function(response) {
+                if (response.data.status == "error" && response.data.error == "Not Authorized.") {
+                    // Redirect user to login page if we get not authorized error
+                    $sessionStorage.sessionId = null;
+                    $state.go("auth");
+                }
+                return response;
+            });
         };
     }])
     .controller('AppCtrl', ['$scope', '$localStorage', '$sessionStorage', '$http', '$auth', '$state', "$rootScope",
@@ -36,7 +54,7 @@ angular.module('app')
             // add 'ie' classes to html
             var isIE = !!navigator.userAgent.match(/MSIE/i);
             if (isIE) {
-                angular.element($sessionStorage.document.body).addClass('ie');
+                angular.element(window.document.body).addClass('ie');
             }
 
             // config
@@ -66,7 +84,7 @@ angular.module('app')
                 }
             };
 
-            if (angular.isDefined($localStorage.sessionId)) {
-                $rootScope.sessionId = $localStorage.sessionId;
+            if (angular.isDefined($sessionStorage.sessionId)) {
+                $rootScope.sessionId = $sessionStorage.sessionId;
             }
         }]);

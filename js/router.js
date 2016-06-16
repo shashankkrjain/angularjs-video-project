@@ -4,15 +4,16 @@ angular.module('app')
         ['$rootScope', '$state', '$stateParams', "$auth", "$location", "$sessionStorage",
             function ($rootScope, $state, $stateParams, $auth, $location, $sessionStorage) {
                 $rootScope.$on("$stateChangeStart", function (event, toState, toParams, fromState, fromParams) {
+                    console.log(toState.name);
                     if (!$sessionStorage.sessionId) {
                         if ( toState.name.indexOf("app") == 0) {
-                            $location.path("/login");
+                            $location.path("login");
                         }
                     }
                     else {
                         // If user is on login page
                         if ( toState.name.indexOf("auth") == 0) {
-                            $location.path("/");
+                            $location.path("videos");
                         }
                     }
                 });
@@ -22,18 +23,17 @@ angular.module('app')
         ]
     )
     .config(
-        function ($stateProvider, $urlRouterProvider, JQ_CONFIG, MODULE_CONFIG, $authProvider) {
+        function ($stateProvider, $urlRouterProvider, JQ_CONFIG, MODULE_CONFIG) {
             $urlRouterProvider.otherwise('/404');
 
-            $authProvider.loginUrl = '/user/login';
-
             $stateProvider.state('app', {
-                url: '/index',
+                url: '/videos',
                 templateUrl: '/templates/layout.html',
                 abstract: true
             }).state('app.index', {
-                url: '/',
-                templateUrl: '/templates/app.html',
+                url: '',
+                templateUrl: '/templates/videos.html',
+                controller: 'IndexController',
                 resolve: load(['/js/controllers/index.js'])
             }).state('404', {
                 url: '/404',
@@ -65,6 +65,8 @@ angular.module('app')
 
                             angular.forEach(srcs, function (src) {
                                 promise = promise.then(function () {
+                                    var name = undefined;
+
                                     if (JQ_CONFIG[src]) {
                                         return $ocLazyLoad.load(JQ_CONFIG[src]);
                                     }
@@ -89,5 +91,5 @@ angular.module('app')
                 }
             }
         },
-        ['$stateProvider', '$urlRouterProvider', 'JQ_CONFIG', 'MODULE_CONFIG', '$authProvider']
+        ['$stateProvider', '$urlRouterProvider', 'JQ_CONFIG', 'MODULE_CONFIG']
     );
