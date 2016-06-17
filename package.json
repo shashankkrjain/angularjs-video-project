@@ -1,6 +1,6 @@
 {
   "name": "CrossoverVideosAssignment",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Video assignment for crossover",
   "scripts": {
     "start": "node node_modules/http-server/bin/http-server -o"

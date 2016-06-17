@@ -2,171 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baa35893-c390-42f0-a2df-3bc3464b5002" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/app.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/app.rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fullcalendar.theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/material-design-icons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/md.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/responsive.bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/api/datatable.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/api/groups" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/api/login" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/api/signup" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/app.rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/app.arrow.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/app.butterbar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/app.buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/app.colors.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/app.components.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/app.item.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/app.layout.boxed.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/app.layout.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/app.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/app.mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/app.nav.dock.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/app.nav.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/app.nav.offscreen.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/app.ng.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/app.plugin.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/app.reset.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/app.rtl.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/app.utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/app.variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/app.widgets.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/md.base.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/md.btn.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/md.card.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/md.check.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/md.color.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/md.icon.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/md.input.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/md.layout.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/md.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/md.list.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/md.switch.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/md.variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/less/md.whiteframe.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/material-design-icons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/md.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/a0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/a1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/a10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/a2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/a3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/a4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/a5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/a6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/a7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/a8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/a9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/b0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/b1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/b10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/b11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/b12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/b13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/b14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/b15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/b16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/b17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/b18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/b19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/b2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/b20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/b3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/b4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/b5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/b6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/b7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/b8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/b9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/c0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/c1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/c2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/c3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/c4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/c5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/c6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/c7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/c8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/c9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/p0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/app.material.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/app/calendar/calendar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/app/contact/contact.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/app/contact/contacts.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/app/mail/mail-service.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/app/mail/mail.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/app/mail/mails.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/app/map/load-google-maps.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/app/map/map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/app/map/ui-map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/app/music/ctrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/app/music/theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/app/music/videogular.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/app/note/note.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/app/note/notes.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/app/todo/todo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/app/weather/angular-skycons.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/app/weather/ctrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/app/weather/skycons.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/controllers/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/controllers/chart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/controllers/editor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/controllers/file-upload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/controllers/form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/controllers/grid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/controllers/imgcrop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/controllers/material.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/controllers/scroll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/controllers/select.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/controllers/signin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/controllers/signup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/controllers/slider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/controllers/tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/controllers/table.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/controllers/toaster.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/controllers/tree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/controllers/uigrid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/controllers/vectormap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/controllers/xeditable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/directives/bootstrap-select.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/directives/setnganimate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/directives/snap-permission.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/directives/star-rating.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/directives/ui-butterbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/directives/ui-focus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/directives/ui-fullscreen.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/directives/ui-jq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/directives/ui-module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/directives/ui-nav.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/directives/ui-scroll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/directives/ui-shift.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/directives/ui-toggleclass.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/filters/fromNow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/filters/propsFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/blocks/nav.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/e2e/scenarios.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/controllers/video.js" afterPath="$PROJECT_DIR$/js/controllers/detail.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/api/saveUser" afterPath="$PROJECT_DIR$/tests/unit/videos.test.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protractor.conf.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GruntFile.js" afterPath="$PROJECT_DIR$/GruntFile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/app.css" afterPath="$PROJECT_DIR$/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/app.min.css" afterPath="$PROJECT_DIR$/css/app.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom.css" afterPath="$PROJECT_DIR$/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grunt/concat.js" afterPath="$PROJECT_DIR$/grunt/concat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.min.js" afterPath="$PROJECT_DIR$/js/app.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers/index.js" afterPath="$PROJECT_DIR$/js/controllers/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/router.js" afterPath="$PROJECT_DIR$/js/router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/karma.conf.js" afterPath="$PROJECT_DIR$/karma.conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/main.js" afterPath="$PROJECT_DIR$/src/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/blocks/header.html" afterPath="$PROJECT_DIR$/templates/blocks/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/detail.html" afterPath="$PROJECT_DIR$/templates/detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/videos.html" afterPath="$PROJECT_DIR$/templates/videos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/unit/auth.test.js" afterPath="$PROJECT_DIR$/tests/unit/auth.test.js" />
     </list>
     <ignored path="client.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -188,21 +25,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="videos.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/videos.html">
+      <file leaf-file-name="detail.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/controllers/detail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.038462">
-              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/controllers/detail.js">
+      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5418327">
-              <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+            <state vertical-scroll-proportion="-5.8461537">
+              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clean.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grunt/clean.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -218,41 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/blocks/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.0">
-              <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GruntFile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GruntFile.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="karma.conf.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/karma.conf.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.576923">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+              <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -268,21 +85,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/controllers/index.js">
+      <file leaf-file-name="router.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-              <folding />
+            <state vertical-scroll-proportion="0.8645418">
+              <caret line="102" column="6" selection-start-line="102" selection-start-column="6" selection-end-line="102" selection-end-column="6" />
+              <folding>
+                <element signature="e#2557#4229#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.538462">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state vertical-scroll-proportion="-11.307693">
+              <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -418,7 +237,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -432,11 +255,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -548,7 +367,13 @@
       <option name="project" value="LOCAL" />
       <updated>1466167452898</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Final done">
+      <created>1466178477538</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1466178477538</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -617,7 +442,8 @@
     <MESSAGE value="Video list page done" />
     <MESSAGE value="Working on detail page" />
     <MESSAGE value="Complete auth module unit test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete auth module unit test" />
+    <MESSAGE value="Final done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -639,27 +465,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grunt/clean.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grunt/cssmin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grunt/htmlmin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -752,14 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protractor.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/signin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.5">
@@ -808,22 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.346154">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grunt/copy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.814815">
-          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/config.lazyload.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -844,14 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76616234">
-          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -880,28 +653,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.97078353">
-          <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
-          <folding>
-            <element signature="e#2557#4229#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/unit/auth.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grunt/concat.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -964,26 +719,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="94" column="19" selection-start-line="94" selection-start-column="19" selection-end-line="94" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/blocks/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.0">
           <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GruntFile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -996,11 +735,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8461537">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GruntFile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/controllers/detail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5418327">
-          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grunt/clean.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grunt/htmlmin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grunt/copy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.022576362">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grunt/cssmin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11288181">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grunt/concat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5869854">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.307693">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="94" column="19" selection-start-line="94" selection-start-column="19" selection-end-line="94" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8645418">
+          <caret line="102" column="6" selection-start-line="102" selection-start-column="6" selection-end-line="102" selection-end-column="6" />
+          <folding>
+            <element signature="e#2557#4229#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
