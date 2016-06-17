@@ -15,7 +15,7 @@ describe('AuthController', function () {
         $sessionStorage = _$sessionStorage_;
 
         // Mock API
-        $httpBackend.when("POST", "/user/auth")
+        $httpBackend.when("POST", /\/user\/auth(\?sessionId=[0-9A-Za-z]*|)/)
             .respond(function(method, url, data, headers, params) {
                 data = JSON.parse(data);
 
@@ -52,12 +52,7 @@ describe('AuthController', function () {
     });
 
 
-    it('page does not have a blank title', function () {
-        expect($scope.pageName, undefined).not.toBe(undefined);
-        $httpBackend.flush();
-    });
-
-    it('login with wrong credentials returns error', function () {
+    it('should not login with wrong credentials', function () {
         $scope.user = {
             "username": "wrong",
             "password": md5("wrong")
@@ -69,7 +64,7 @@ describe('AuthController', function () {
         $httpBackend.flush();
     });
 
-    it('login with correct credentials returns sessionId', function () {
+    it('should login with correct credentials', function () {
         $scope.user = {
             "username": "ali",
             "password": "password"

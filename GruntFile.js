@@ -10,7 +10,6 @@ module.exports = function(grunt) {
 
     // We need our bower components in order to develop
     gtx.alias('build:crossover', [
-        'recess:less',
         'copy:libs',  //
         'copy:angular', //
         'concat:js',

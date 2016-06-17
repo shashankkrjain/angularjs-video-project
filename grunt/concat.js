@@ -28,9 +28,7 @@ module.exports = {
             "src/js/config.js",
             "src/js/config.lazyload.js",
             "src/js/main.js",
-            "src/js/services/ui-load.js",
-            "src/js/filters/fromNow.js",
-            "src/js/filters/propsFilter.js"
+            "src/js/services/ui-load.js"
         ],
         dest: "js/app.js"
     },
@@ -43,6 +41,7 @@ module.exports = {
             "libs/assets/font-awesome/css/font-awesome.min.css",
             "libs/jquery/bootstrap/dist/css/bootstrap.css",
             "libs/angular/angular-input-stars-directive/angular-input-stars.css",
+            "libs/angular/angular-ui-notification/dist/angular-ui-notification.min.css",
             "src/css/font.css",
             "src/css/app.css"
         ],

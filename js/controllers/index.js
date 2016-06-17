@@ -16,7 +16,7 @@ angular.module('app')
         // This function fetched video results from API according to current pointer
         $scope.paginate = function () {
             $scope.busy = true;
-            $api.get("videos", {skip: $scope.skip}).then(function (response) {
+            $api.get("/videos", {skip: $scope.skip}).then(function (response) {
                 $scope.busy = false;
                 if (response.data.status == "success") {
                     if (response.data.data.length == 0) {

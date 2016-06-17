@@ -7,7 +7,7 @@
         <i class="glyphicon glyphicon-align-justify"></i>
     </button>
     <!-- brand -->
-    <a ui-sref="manager.dashboard" href="" class="navbar-brand text-lt">
+    <a ui-sref="app.index" href="" class="navbar-brand text-lt">
         Crossover Video
     </a>
     <!-- / brand -->
@@ -24,7 +24,7 @@
             <!-- dropdown -->
             <ul class="dropdown-menu">
                 <li>
-                    <a ui-sref="logout">Logout</a>
+                    <a ng-click="logout();">Logout</a>
                 </li>
             </ul>
             <!-- / dropdown -->

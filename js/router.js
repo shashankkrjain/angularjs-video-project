@@ -42,7 +42,7 @@ angular.module('app')
                 url: '/:id',
                 templateUrl: '/templates/detail.html',
                 controller: 'VideoController',
-                resolve: load(['/js/controllers/video.js'])
+                resolve: load(['/js/controllers/detail.js'])
             }).state('404', {
                 url: '/404',
                 templateUrl: '/templates/404.html'

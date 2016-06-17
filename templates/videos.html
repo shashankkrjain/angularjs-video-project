@@ -4,7 +4,7 @@
             <div class="col-md-4" ng-repeat="video in videos">
                 <div class="panel">
                     <div class="panel-heading no-border bg-primary">
-                        <a href="{{video._id}}" class="text-lt">{{ video.name }}</a>
+                        <a ui-sref="app.detail({id: video._id})" class="text-lt">{{ video.name }}</a>
                     </div>
                     <div class="panel-body">
                         <div class="videogular-container">

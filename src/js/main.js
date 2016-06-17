@@ -33,7 +33,7 @@ angular.module('app')
             }
 
             if ($sessionStorage.sessionId) {
-                data.sessionId = $sessionStorage.sessionId;
+                url = url+"?sessionId="+$sessionStorage.sessionId;
             }
 
             data = JSON.stringify(data);
@@ -50,8 +50,8 @@ angular.module('app')
             });
         };
     }])
-    .controller('AppCtrl', ['$scope', '$localStorage', '$sessionStorage', '$http', '$auth', '$state', "$rootScope",
-        function ($scope, $localStorage, $sessionStorage, $http, $auth, $state, $rootScope) {
+    .controller('AppCtrl', ['$scope', '$localStorage', '$sessionStorage', '$http', '$auth', '$state', "$rootScope", '$api',
+        function ($scope, $localStorage, $sessionStorage, $http, $auth, $state, $rootScope, $api) {
             // add 'ie' classes to html
             var isIE = !!navigator.userAgent.match(/MSIE/i);
             if (isIE) {
@@ -87,5 +87,12 @@ angular.module('app')
 
             if (angular.isDefined($sessionStorage.sessionId)) {
                 $rootScope.sessionId = $sessionStorage.sessionId;
+            }
+
+            $scope.logout = function() {
+                $api.get("/user/logout").then(function(response) {
+                   $sessionStorage.sessionId = undefined;
+                   $state.go("auth");
+                });
             }
         }]);
