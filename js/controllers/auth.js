@@ -8,9 +8,13 @@ angular.module('app')
         $rootScope.pageName = "Login";
 
         $scope.login = function() {
+            // Md5 encrypt password
             $scope.user.password = md5($scope.user.password);
-            $api.post("user/auth", $scope.user).then(function(response) {
+
+            // Send request
+            $api.post("/user/auth", $scope.user).then(function(response) {
                if (response.data.status == "success") {
+                   // Store session ID in session storage
                    $sessionStorage.sessionId = response.data.sessionId;
                    $sessionStorage.user = response.data.username;
                    $state.go("app.index");

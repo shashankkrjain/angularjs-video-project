@@ -14,6 +14,7 @@ module.exports = {
             "libs/angular/angular-bootstrap/ui-bootstrap-tpls.js",
             "libs/angular/satellizer/satellizer.min.js",
             "libs/angular/oclazyload/dist/ocLazyLoad.js",
+            "libs/angular/angular-mocks/angular-mocks.js",
             "libs/angular/angular-ui-notification/dist/angular-ui-notification.js",
             "libs/angular/js-md5/build/md5.min.js",
             "libs/angular/videogular/videogular.min.js",

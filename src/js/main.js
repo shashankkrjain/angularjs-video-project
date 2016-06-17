@@ -1,6 +1,7 @@
 'use strict';
 
 /* Controllers */
+var version = 1;
 
 angular.module('app')
     .service('$api', ['$http', '$auth', '$sessionStorage', '$state', "Notification", "$q", function ($http, $auth, $sessionStorage, $state, Notification, $q) {
@@ -14,7 +15,7 @@ angular.module('app')
                 data.sessionId = $sessionStorage.sessionId;
             }
 
-            return $http.get(urlBase + "/" + url, {params: data}).then(function(response) {
+            return $http.get(url, {params: data}).then(function(response) {
                 return response;
             }, function(response) {
                 if (response.data.status == "error" && response.data.error == "Not Authorized.") {
@@ -37,7 +38,7 @@ angular.module('app')
 
             data = JSON.stringify(data);
 
-            return $http.post(urlBase + "/" + url, data).then(function(response) {
+            return $http.post(url, data).then(function(response) {
                 return response;
             }, function(response) {
                 if (response.data.status == "error" && response.data.error == "Not Authorized.") {

@@ -4,14 +4,14 @@ angular.module('app')
         ['$rootScope', '$state', '$stateParams', "$auth", "$location", "$sessionStorage",
             function ($rootScope, $state, $stateParams, $auth, $location, $sessionStorage) {
                 $rootScope.$on("$stateChangeStart", function (event, toState, toParams, fromState, fromParams) {
-                    console.log(toState.name);
                     if (!$sessionStorage.sessionId) {
+                        // If session ID is not found, redirect to login page
                         if ( toState.name.indexOf("app") == 0) {
                             $location.path("login");
                         }
                     }
                     else {
-                        // If user is on login page
+                        // If user is on login page and is logged in, go to videos page
                         if ( toState.name.indexOf("auth") == 0) {
                             $location.path("videos");
                         }
@@ -24,9 +24,12 @@ angular.module('app')
     )
     .config(
         function ($stateProvider, $urlRouterProvider, JQ_CONFIG, MODULE_CONFIG) {
-            $urlRouterProvider.otherwise('/404');
-
-            $stateProvider.state('app', {
+            $stateProvider.state('root', {
+                url: '',
+                onEnter: function($state) {
+                    $state.go('auth');
+                }
+            }).state('app', {
                 url: '/videos',
                 templateUrl: '/templates/layout.html',
                 abstract: true

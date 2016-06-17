@@ -12,6 +12,7 @@ module.exports = {
                     'angular-sanitize/angular-sanitize.js',
                     'ngstorage/ngStorage.js',
                     'oclazyload/dist/**',
+                    'angular-mocks/angular-mocks.js',
                     'satellizer/**',
                     'angular-ui-notification/dist/**',
                     'js-md5/build/md5.min.js',
