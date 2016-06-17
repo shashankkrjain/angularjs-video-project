@@ -1,12 +1,10 @@
 <div class="hbox hbox-auto-xs hbox-auto-sm">
-    <div class="wrapper" infinite-scroll="paginate()" infinite-scroll-disabled="busy || reachedEnd" infinite-scroll-distance="3">
+    <div class="wrapper">
         <div class="row">
-            <div class="col-md-4" ng-repeat="video in videos">
-                <div class="panel">
-                    <div class="panel-heading no-border bg-primary">
-                        <a href="{{video._id}}" class="text-lt">{{ video.name }}</a>
-                    </div>
-                    <div class="panel-body">
+            <div class="col-md-10">
+                <div class="panel panel-default">
+                    <div class="panel-body" ng-init="getVideo()">
+                        <h3 class="text-center">{{ video.name }}</h3>
                         <div class="videogular-container">
                             <videogular vg-player-ready="onPlayerReady($index, $API)" vg-update-state="onUpdateState($index, $state)" vg-autoPlay="config.autoPlay" vg-theme="config.theme">
                                 <vg-media vg-src="sources[$index]" vg-preload="config.preload" vg-native-controls="true"></vg-media>
@@ -22,6 +20,7 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-2"></div>
         </div>
     </div>
 </div>

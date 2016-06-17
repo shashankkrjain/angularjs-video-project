@@ -35,6 +35,11 @@ angular.module('app')
                 templateUrl: '/templates/videos.html',
                 controller: 'IndexController',
                 resolve: load(['/js/controllers/index.js'])
+            }).state('app.detail', {
+                url: '/:id',
+                templateUrl: '/templates/detail.html',
+                controller: 'VideoController',
+                resolve: load(['/js/controllers/video.js'])
             }).state('404', {
                 url: '/404',
                 templateUrl: '/templates/404.html'
