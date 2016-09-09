@@ -1,12 +1,11 @@
 {
-  "name": "CrossoverVideosAssignment",
+  "name": "VideosDemo",
   "version": "1.0.0",
-  "description": "Video assignment for crossover",
+  "description": "Video assignment",
   "scripts": {
     "start": "node node_modules/http-server/bin/http-server -o"
   },
   "keywords": [],
-  "repository": "https://gitlab.com/Heyflat/angulr.git",
   "author": "Flatfull",
   "license": "Envato REGULAR LICENSE",
   "dependencies": {
